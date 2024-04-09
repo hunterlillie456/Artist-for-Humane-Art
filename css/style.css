@@ -73,8 +73,7 @@ img {
     background: url('../images/Arti.png') no-repeat;
     background-size: contain;
     background-position: right bottom;
-    height: 430px;
-    
+    height: 430px; 
 }
 
 .hero .hero-content{
@@ -99,6 +98,7 @@ img {
     max-width: 1500px;
     max-height: 900px;
     background-color: var(--header-color);
+    display: flex;
 }
 
 .subjectMatter .subjectMatter-content{
@@ -125,7 +125,8 @@ img {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 5px;
-    align-content: center;    
+    align-content: center;
+    display: flex;    
 }
 
 .testimonials .container {
@@ -343,6 +344,7 @@ img {
     margin: 40px 0 20px;
     color: white;
     text-align: center;
+    padding-left: 100px;
 }
 
 .text-sm {
