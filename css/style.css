@@ -98,9 +98,9 @@ img {
     max-width: 1500px;
     max-height: 900px;
     background-color: var(--header-color);
-    display: flex;
-    width: 1500px;
+    width: 1300px;
 }
+
 
 .subjectMatter .subjectMatter-content{
     width: 90%;
