@@ -265,7 +265,7 @@ img {
 .originImage .container{
     background-size: contain;
     background-position: right bottom;
-    height: 1300px;
+    height: 1800px;
 }
 
 .originImage .originImage-content{
@@ -576,13 +576,17 @@ img {
   }
 
   .PHASH {
-    position: absolute;
+    position: static;
+    margin-left: 740px;
+    margin-top: -350px;
     top:890px;
     left: 920px; 
   }
 
   .KNN {
-    position: absolute;
+    position: static;
+    margin-left: 740px;
+    margin-top: -350px;
     top:1430px;
     left: 920px; 
   }
