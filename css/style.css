@@ -252,6 +252,30 @@ img {
     margin: 20px 0;
 }
 
+/* Tool Content */
+
+.tools .container{
+    background-size: contain;
+    background-position: right bottom;
+    height: 450px; 
+}
+
+/* Origin Image Content */
+
+.originImage .container{
+    background-size: contain;
+    background-position: right bottom;
+    height: 1300px;
+}
+
+.originImage .originImage-content{
+    width: 90%;
+    padding-left: 100px;
+    padding-top: 5px;
+    
+}
+
+
 
 /* Utility Classes */
 .container {
@@ -346,6 +370,16 @@ img {
     color: white;
     text-align: center;
     padding-left: 100px;
+}
+
+.text-xxl-alt-OriginImage{
+    font-family: 'Roboto Flex';
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 450;
+    margin: 40px 0 20px;
+    padding-top: 50px;
+    color: white;
 }
 
 .text-sm {
@@ -475,6 +509,52 @@ img {
     margin-left: 40px; /* Adjust this value to increase or decrease the indentation */
   }
 
+ /* These styles are for tools*/
+
+ .text-p-m-tools{
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 300;
+    margin: 10px 0 20px;
+    color: white;
+    padding-bottom: 20px;
+    
+}
+
+ .tools li{
+    list-style-type: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 30px 0 0px;
+    color: #232426; 
+ }
+
+ .originImage li{
+    list-style-type: circle;
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 300;
+    margin: 10px 0 0px;
+    color: white; 
+ }
+
+
+ .text-p-subheading-three{
+    font-family: 'Poppins';
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 40px 0 20px;
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 100px;
+}
+
+
   /* Image Classes */
   .pallet-image {
     position: absolute;
@@ -488,8 +568,21 @@ img {
     left: 900px; 
   }
 
-  .goal-image {
+  .Arti{
     position: absolute;
-    top:4400px;
-    left: 540px;
+    top:250px;
+    left: 50px;
+
+  }
+
+  .PHASH {
+    position: absolute;
+    top:890px;
+    left: 920px; 
+  }
+
+  .KNN {
+    position: absolute;
+    top:1430px;
+    left: 920px; 
   }
