@@ -279,7 +279,7 @@ img {
 .gallery .container{
     background-size: contain;
     background-position: right bottom;
-    height: 450px; 
+    height: 570px; 
 }
 
 /* Artists Content */
@@ -595,6 +595,13 @@ img {
     position: absolute;
     top:250px;
     left: 50px;
+
+  }
+
+  .frame{
+    position: absolute;
+    top:250px;
+    left: 540px;
 
   }
 
